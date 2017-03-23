@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import collada
-import numpy
 
 import pyglet
 from pyglet.gl import *
@@ -9,7 +8,6 @@ import ctypes
 
 import glutils
 from glutils import VecF
-import shader
 from shader import Shader
 import shaders
 

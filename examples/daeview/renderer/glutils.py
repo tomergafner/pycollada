@@ -1,4 +1,3 @@
-import pyglet
 from pyglet.gl import *
 import ctypes
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 import collada
-import numpy
-import pyglet
 from pyglet.gl import *
 import ctypes
 import glutils
@@ -23,7 +21,7 @@ class OldStyleRenderer:
         glEnable(GL_DEPTH_TEST) # Enables Depth Testing
         glDepthFunc(GL_LEQUAL) # The Type Of Depth Testing To Do
         
-        glEnable(GL_MULTISAMPLE);
+        glEnable(GL_MULTISAMPLE)
 
         glEnable(GL_LIGHTING)
         glEnable(GL_LIGHT0)

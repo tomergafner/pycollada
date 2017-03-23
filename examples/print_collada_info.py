@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import collada
-import numpy
 import sys
 
 def inspectController(controller):
